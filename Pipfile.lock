@@ -1,0 +1,76 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "c8fed20c79760260f709af8a9196b25af54aae85bb904d8fd9d9acca65367364"
+        },
+        "host-environment-markers": {
+            "implementation_name": "cpython",
+            "implementation_version": "3.6.4",
+            "os_name": "posix",
+            "platform_machine": "x86_64",
+            "platform_python_implementation": "CPython",
+            "platform_release": "16.7.0",
+            "platform_system": "Darwin",
+            "platform_version": "Darwin Kernel Version 16.7.0: Thu Jan 11 22:59:40 PST 2018; root:xnu-3789.73.8~1/RELEASE_X86_64",
+            "python_full_version": "3.6.4",
+            "python_version": "3.6",
+            "sys_platform": "darwin"
+        },
+        "pipfile-spec": 6,
+        "requires": {},
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "colosseum": {
+            "hashes": [
+                "sha256:66f4061fbf93de1aeef1ee8fc786910e4f0f6ed039bc9cbb7651d4b5be391c69",
+                "sha256:9aa37245295ad401afe5b49bfdb7b14fd11581408fe986c71ffcfa044f954832"
+            ],
+            "version": "==0.1.6"
+        },
+        "invoke": {
+            "hashes": [
+                "sha256:357f0661c1d84f9f113e6164705d92eb00b35cd704c31e82efbf0f012f25e40c",
+                "sha256:39020b07218c87747e85dd422510f02a8d1282c71952942324c67d9eeaae8e62",
+                "sha256:621181a0efae67b3dadec583cf2c6b5096136635bf6a326c481c73db412b36fc"
+            ],
+            "version": "==0.22.1"
+        },
+        "rubicon-objc": {
+            "hashes": [
+                "sha256:f130b4947f8532c64cb2a38689eea8517b77b2b1c8c65e96964bab418ac8070c",
+                "sha256:380778c63c5338ac94fdc38e7d41a0c2d60607c15e5e18784efe5fc0e1aebd6e"
+            ],
+            "version": "==0.2.10"
+        },
+        "toga": {
+            "hashes": [
+                "sha256:8cd2b2a084998ea28b96a34315a86abdbe596958acfe721f8fe1520645060620",
+                "sha256:e96ca2ccb1322ee22fdc93ae3d1614f14b1148dcdd7fbca28a36f097ed1b3dfa"
+            ],
+            "version": "==0.2.15"
+        },
+        "toga-cocoa": {
+            "hashes": [
+                "sha256:5e5f6461582abf8cfecad8d3cdc47423dd4f6c4e4ee78b1f349b5018e590b2f3",
+                "sha256:5b4e3a6dfa937a91aeb9f38d4c0de56ee8e4d19eb3603390795ff2b9ee3cd0dd"
+            ],
+            "markers": "sys_platform == 'darwin'",
+            "version": "==0.2.15"
+        },
+        "toga-core": {
+            "hashes": [
+                "sha256:3db121db88a8ea44c271ed33c6561fd4522ebef267865300f966663ad72f4049",
+                "sha256:d579901465a98b295fcf7cc47e23d769c71e27d1d993271fed2e6403645d3550"
+            ],
+            "version": "==0.2.15"
+        }
+    },
+    "develop": {}
+}
